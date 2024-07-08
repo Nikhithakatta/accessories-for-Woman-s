@@ -1,0 +1,4096 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhitha Jewelry</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+                                  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+                                  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+                                  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+                             
+    <link rel="stylesheet" href="styles.css">
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&display=swap");
+
+
+/* common styling */
+
+* {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 24px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    visibility: visible;
+    font-family: "Poppins", sans-serif;
+    color: #5a5a5a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    margin-top: 0;
+    font-family: "Baloo 2", cursive;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 36px;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+h4 {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+h6 {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+a,
+button {
+    color: inherit;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+a,
+button,
+img,
+input,
+span {
+    transition: all 0.3s ease 0s;
+}
+
+*:focus {
+    outline: none !important;
+}
+
+a:focus {
+    color: inherit;
+    outline: none;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+button,
+input[type="submit"] {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.home_black_version {
+    background: darkblue;
+    
+}
+.bg{
+    background-color: darkblue;
+   
+    background-size: cover;
+}
+.header_black .header_top {
+    border-bottom: 1px solid #2d2d2d;
+}
+
+.header_black .social_icone ul li a {
+    background: #2f2f2f;
+    color: #cccccc;
+}
+
+.header_black .social_icone ul li a:hover {
+    background: #a8741a;
+}
+
+.header_black .top_right>ul>li::before {
+    background: #2d2d2d;
+}
+
+.header_black .top_right>ul>li:hover>a {
+    color: #a8741a;
+}
+
+.header_black .top_right>ul>li>a {
+    color: #ffffff;
+}
+
+.header_black .top_right>ul>li>a:not([href]):not([tabindex]) {
+    color: #ffffff;
+}
+
+.header_black .top_right>ul>li>a:not([href]):not([tabindex]):hover {
+    color: #a8741a;
+}
+
+.header_black .dropdown_language li,
+.header_black .dropdown_currency li,
+.header_black .dropdown_links li {
+    border-bottom: 1px solid #2d2d2d;
+}
+
+.header_black .dropdown_language li a:hover,
+.header_black .dropdown_currency li a:hover,
+.header_black .dropdown_links li a:hover {
+    color: #a8741a;
+}
+
+.header_black .dropdown_links {
+    left: -98%;
+}
+
+.social_icone ul li {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.social_icone ul li:first-child {
+    margin-left: 0;
+}
+
+.social_icone ul li a {
+    background: #ebebeb;
+    color: #aaaaaa;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.social_icone ul li a:hover {
+    background: #a8741a;
+    color: #ffffff;
+}
+
+.top_right>ul>li {
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.top_right>ul>li:hover ul.dropdown_currency {
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.top_right>ul>li:hover ul.dropdown_language,
+.top_right>ul>li:hover .header_black ul.dropdown_currency,
+.header_black .top_right>ul>li:hover ul.dropdown_currency,
+.top_right>ul>li:hover .header_black ul.dropdown_links,
+.header_black .top_right>ul>li:hover ul.dropdown_links {
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.top_right>ul>li:hover ul.dropdown_links {
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.top_right>ul>li:first-child {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.top_right>ul>li::before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 15px;
+    background: #ebebeb;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+}
+
+.top_right>ul>li:first-child::before {
+    display: none;
+}
+
+.top_right>ul>li>a {
+    color: #242424;
+    text-transform: capitalize;
+    line-height: 26px;
+    font-size: 12px;
+    cursor: pointer;
+    display: block;
+    font-weight: 400;
+    padding: 9px 0;
+}
+
+.top_right>ul>li>a i {
+    margin-left: 3px;
+    font-size: 10px;
+}
+
+.dropdown_currency,
+.dropdown_language,
+.dropdown_links,
+.header_black .dropdown_currency,
+.header_black .dropdown_links {
+    position: absolute;
+    background: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    min-width: 200px;
+    text-align: center;
+    top: 125%;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+    left: -154%;
+    z-index: 9999;
+    padding: 0 15px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.header_black .dropdown_language,
+.header_black .dropdown_currency,
+.header_black .dropdown_links {
+    background: #242424;
+}
+
+.dropdown_language li a,
+.header_black .dropdown_currency li a,
+.header_black .dropdown_links li a {
+    text-transform: capitalize;
+    display: block;
+    font-size: 12px;
+    color: #242424;
+    text-align: center;
+}
+
+.dropdown_language li a:hover,
+.header_black .dropdown_currency li a:hover,
+.header_black .dropdown_links li a:hover {
+    color: #a8741a;
+}
+
+.header_black .dropdown_language li:last-child,
+.header_black .dropdown_currency li:last-child,
+.header_black .dropdown_links li:last-child {
+    border-bottom: 0;
+}
+
+.header_black .dropdown_language li a,
+.header_black .dropdown_currency li a,
+.header_black .dropdown_links li a {
+    color: #ffffff;
+}
+
+.header_black .dropdown_links {
+    left: -98%;
+}
+
+.dropdown_language li,
+.header_black .dropdown_currency li,
+.header_black .dropdown_links li {
+    border-bottom: 1px solid #2d2d2d;
+    line-height: 36px;
+    padding: 5px 0;
+}
+
+.dropdown_language li:last-child,
+.header_black .dropdown_currency li:last-child,
+.header_black .dropdown_links li:last-child {
+    border-bottom: 0;
+}
+
+.dropdown_language li a:hover,
+.header_black .dropdown_currency li a:hover,
+.header_black .dropdown_links li a:hover {
+    color: #a8741a;
+}
+
+/* *****************Middle Header******************** */
+
+.header_middel {
+    padding: 40px 0;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.header_black .header_middel {
+    border-bottom: 1px solid #2d2d2d;
+}
+
+.home_contact {
+    display: flex;
+}
+
+.home_contact .contact_box {
+    padding-right: 25px;
+    margin-right: 25px;
+    border-right: 2px solid #cccccc;
+}
+
+.header_black .home_contact {
+    align-items: center;
+}
+
+.header_black .contact_box {
+    margin-left: 15px;
+}
+
+.header_black .contact_box p {
+    color: #a8741a;
+    font-size: 14px;
+}
+
+.logo {
+    padding: 0 20px;
+}
+
+.middel_right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.search_btn {
+    position: relative;
+}
+
+.search_btn:hover .dropdown_search {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+.search_btn a {
+    width: 45px;
+    height: 45px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 45px;
+    border: 1px solid #2d2d2d;
+    color: #ffffff;
+    font-size: 20px;
+    display: block;
+}
+
+.search_btn a:hover {
+    color: #a8741a;
+}
+
+.header_black .search_btn form button {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    border: 0;
+    background: inherit;
+    color: #ffffff;
+    font-size: 20px;
+    height: 100%;
+}
+
+.header_black .search_btn form button:hover {
+    color: #a8741a;
+}
+
+.dropdown_search {
+    position: absolute;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    top: 120%;
+    transition: 0.3s;
+}
+
+.dropdown_search form {
+    position: relative;
+    width: 280px;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    z-index: 9;
+}
+
+.dropdown_search form input {
+    border: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 67px 0 10px;
+    background: inherit;
+    font-size: 12px;
+    color: #a4a4a4;
+}
+
+.dropdown_search form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #ebebeb;
+    width: 59px;
+    height: 100%;
+    border: 0;
+    border-left: 1px solid #2d2d2d;
+    padding: 0;
+    font-size: 20px;
+    background: none;
+    color: #ffffff;
+}
+
+.header_black .dropdown_search form {
+    background: #242424;
+    border: 1px solid #2d2d2d;
+}
+
+.header_black .wishlist_btn {
+    margin-left: 18px;
+}
+
+.header_black .wishlist_btn a {
+    width: 45px;
+    height: 45px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    display: block;
+    border: 1px solid #2d2d2d;
+    color: #ffffff;
+}
+
+.header_black .wishlist_btn a:hover {
+    color: #a8741a;
+}
+
+.cart_link {
+    margin-left: 25px;
+    position: relative;
+}
+
+.cart_link span.cart_quantity {
+    position: absolute;
+    left: -11px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    background: #a8741a;
+    color: #ffffff;
+    border-radius: 50%;
+    top: 12px;
+}
+
+.cart_link>a {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #212121;
+    border: 1px solid #ebebeb;
+    padding: 11px 10px 13px 18px;
+    line-height: 15px;
+    border-radius: 3px;
+    display: block;
+}
+
+.cart_link>a:hover {
+    color: #a8741a;
+}
+
+.cart_link>a i.ion-android-cart {
+    font-size: 19px;
+    margin-right: 10px;
+    border-right: 1px solid #ebebeb;
+    position: relative;
+    top: 3px;
+    padding-right: 10px;
+}
+
+.cart_link>a i.ion-chevron-down {
+    font-size: 17px;
+    margin-left: 3px;
+}
+
+.header_black .cart_link span.cart_quantity {
+    background: #a8741a;
+}
+
+.header_black .cart_link>a {
+    color: #ffffff;
+    border: 1px solid #2d2d2d;
+}
+
+.header_black .cart_link>a:hover {
+    color: #a8741a;
+}
+
+.header_black .cart_link>a i.ion-android-cart {
+    border-right: 1px solid #2d2d2d;
+}
+
+.mini_cart {
+    position: fixed;
+    min-width: 355px;
+    height: 100%;
+    padding: 18px 20px 33px;
+    background: #ffffff;
+    z-index: 999;
+    right: 0;
+    top: 0;
+    transition: 0.5s;
+    transform: translateX(100%);
+}
+
+.mini_cart.active {
+    transform: translateX(0);
+    transition: 0.5s;
+}
+
+.header_black .mini_cart {
+    background: #242424;
+    border: 1px solid #2d2d2d;
+}
+
+.cart_close {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 10px;
+}
+
+.header_black .cart_close {
+    border-bottom: 1px solid #2d2d2d;
+}
+
+.cart_text h3 {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
+.mini_cart_close>a {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.mini_cart_close>a:hover {
+    color: #a8741a;
+}
+
+.cart_item {
+    padding: 20px 0;
+    border-bottom: 1px solid #2d2d2d;
+    display: flex;
+    overflow: hidden;
+}
+
+.cart_img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.cart_info {
+    width: 58%;
+}
+
+.cart_info a {
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.cart_info a:hover {
+    color: #a8741a;
+}
+
+.cart_info span {
+    display: block;
+}
+
+.cart_info span.price_cart {
+    color: #a8741a;
+    font-weight: 500;
+}
+
+.header_black .cart_info span.quantity {
+    color: #a0a0a0;
+}
+
+.cart_remove {
+    width: 10%;
+    text-align: right;
+}
+
+.cart_remove a {
+    color: #eaeaea;
+    font-size: 18px;
+}
+
+.cart_remove a:hover {
+    color: #a8741a;
+}
+
+.cart_total {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.cart_total span {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.mini_cart_footer {
+    padding: 0 25px 25px;
+    background: #242424;
+}
+
+.cart_button a {
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 400;
+    color: #ffffff;
+    background: #2e2e2e;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 13px 0 11px;
+}
+
+.cart_button a:hover {
+    background: #a8741a;
+}
+
+.cart_button.view_cart {
+    padding-bottom: 15px;
+}
+
+.cart_button a.active {
+    background: #a8741a;
+}
+
+.cart_button a.active:hover {
+    background: #e9c88f;
+    color: #000000;
+    font-weight: 600;
+}
+
+/* ************************ Header Down ( 3rd ) ******************** */
+
+.header_bottom.sticky-header.sticky .main_menu_inner {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_bottom.sticky-header.sticky .logo_sticky {
+    display: block;
+}
+
+.header_black .header_bottom {
+    border-bottom: 1px solid #2d2d2d;
+}
+
+.sticky-header.sticky {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.11);
+    animation-name: fadeInDown;
+    animation-duration: 900ms;
+    animation-timing-function: cubic-bezier(0.2, 1, 0.22, 1);
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+.header_bottom.sticky-header.sticky .main_menu_inner {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_black .sticky-header.sticky {
+    background: rgba(54, 63, 77, 0.9);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.11);
+}
+
+.main_menu_inner {
+    text-align: center;
+}
+
+.logo_sticky {
+    display: none;
+    margin-right: 35px;
+}
+
+.logo_sticky a img {
+    max-width: 120px;
+}
+
+.main_menu nav>ul>li {
+    display: inline-block;
+    position: relative;
+}
+
+.main_menu nav>ul>li>a i {
+    margin-left: 2px;
+}
+
+.main_menu nav>ul>li:hover>a {
+    color: #a8741a;
+}
+
+.main_menu nav>ul>li.active>a {
+    color: #a8741a;
+}
+
+.main_menu nav>ul>li:first-child a {
+    padding-left: 0;
+}
+
+.main_menu nav>ul>li:last-child a {
+    padding-right: 0;
+}
+
+.main_menu nav>ul>li ul.sub_menu {
+    position: absolute;
+    min-width: 200px;
+    padding: 30px 25px;
+    background: #fff;
+    border: 1px solid #ebebeb;
+    transform: perspective(600px) rotateX(-90deg);
+    transform-origin: 0 0 0;
+    left: 0;
+    right: auto;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    z-index: 9;
+    top: 100%;
+    text-align: left;
+}
+
+.main_menu nav>ul>li ul.sub_menu>li>a {
+    font-size: 15px;
+}
+
+.main_menu nav ul li:hover .sub_menu,
+.main_menu nav ul li:hover .mega_menu {
+    opacity: 1;
+    visibility: visible;
+    transform: perspective(600px) rotateX(0deg);
+}
+
+.main_menu nav ul li ul li.active a,
+.main_menu nav ul li ul li a:hover {
+    color: #c09578;
+}
+
+.main_menu nav>ul>li>ul>li>a {
+    color: #808080;
+    font-size: 13px;
+    text-transform: capitalize;
+    line-height: 18px;
+    margin-bottom: 15px;
+    display: block;
+    font-weight: 400;
+}
+
+.main_menu nav>ul>li>ul.sub_menu>li:last-child>a {
+    margin-bottom: 0;
+}
+
+.main_menu nav>ul>li>ul.mega_menu li ul li:last-child a {
+    margin-bottom: 0;
+}
+
+.main_menu nav ul li ul.mega_menu {
+    position: absolute;
+    min-width: 580px;
+    padding: 30px 25px 35px;
+    background: #fff;
+    border: 1px solid #ebebeb;
+    transform: perspective(600px) rotateX(-90deg);
+    transform-origin: 0 0 0;
+    left: 0;
+    right: auto;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    z-index: 9;
+    top: 100%;
+    text-align: left;
+}
+
+.main_menu nav>ul>li>ul.mega_menu>li {
+    width: 33%;
+    float: left;
+}
+
+.main_menu nav>ul>li>ul.mega_menu>li>a {
+    text-transform: uppercase;
+    color: #242424;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.main_menu nav>ul>li>ul.maga_menu>li>a:hover {
+    color: #c09578;
+}
+
+.main_menu nav>ul>li>ul.maga_menu li ul li a {
+    color: #808080;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 11px;
+    display: block;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.main_menu nav>ul>li>ul.maga_menu li ul li a:hover {
+    color: #c09578;
+}
+
+.main_menu nav ul li ul.sub_menu.pages {
+    left: inherit;
+    right: inherit;
+}
+
+.header_black .main_menu nav>ul>li.active>a {
+    color: #a8741a;
+}
+
+.header_black .main_menu nav>ul>li:hover>a {
+    color: #a8741a;
+}
+
+.header_black .main_menu nav>ul>li>a {
+    color: #ffffff;
+    font-family: serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.header_black .main_menu nav>ul>li ul.sub_menu {
+    background: #242424;
+    border: 1px solid #2d2d2d;
+}
+
+.header_black .main_menu nav>ul>li ul.sub_menu li a {
+    color: #ffffff;
+    font-family: serif;
+}
+
+.header_black .main_menu nav>ul>li ul.sub_menu li a:hover {
+    color: #a8741a;
+}
+
+.header_black .main_menu nav>ul>li ul.mega_menu {
+    background: #242424;
+    border: 1px solid #2d2d2d;
+}
+
+.header_black .main_menu nav>ul>li ul.mega_menu>li>a {
+    color: #ffffff;
+    font-family: serif;
+}
+
+.header_black .main_menu nav>ul>li ul.mega_menu>li>a:hover {
+    color: #a8741a;
+}
+
+.header_black .main_menu nav>ul>li ul.mega_menu>li ul li a {
+    color: #ffffff;
+}
+
+.header_black .main_menu nav>ul>li ul.mega_menu>li ul li a:hover {
+    color: #a8741a;
+}
+
+.ion-chevron-down {
+    font-size: 14px;
+    padding-left: 3px;
+}
+
+.main_menu nav>ul>li>a {
+    display: block;
+    padding: 19px 20px;
+    color: #212121;
+    font-size: 13px;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* **********Slider Section *************** */
+.single_slider {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+.slider_area {
+    margin-bottom: 35px;
+}
+
+.slider_area.owl-carousel .owl-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.slider_area.owl-carousel .owl-dots .owl-dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #242424;
+    margin: 0 5px;
+    transition: 0.3s;
+    position: relative;
+}
+
+.slider_area.owl-carousel .owl-dots .owl-dot.active {
+    transition: 0.3s;
+}
+
+.slider_area.owl-carousel .owl-dots .owl-dot.active::before {
+    position: absolute;
+    content: "";
+    background: #a8741a;
+    width: 13px;
+    height: 13px;
+    left: -3px;
+    top: -3px;
+    border-radius: 50%;
+}
+
+.slider_area .single_slider .row {
+    height: 500px;
+}
+
+.slider_area .slider_content {
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.slider_black .slider_content p {
+    color: #a8741a;
+    font-size: 18px;
+    margin-bottom: 0;
+    line-height: 22px;
+}
+
+.slider_black .slider_content p.slider_price {
+    color: #fff;
+}
+
+.slider_black .slider_content p.slider_price span {
+    color: #a8741a;
+    margin-bottom: 0;
+}
+
+.slider_black .slider_content h1 {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-family: "Baloo 2", serif;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .slider_black .slider_content h1 {
+        font-size: 40px;
+        line-height: 46px;
+        margin-bottom: 8px;
+    }
+}
+
+.slider_black .slider_content span {
+    font-size: 24px;
+    color: #cccccc;
+    margin-bottom: 35px;
+    display: inline-block;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .slider_black .slider_content span {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+}
+
+.slider_black .slider_content a {
+    background: #a8741a;
+    margin-top: 30px;
+}
+
+.slider_black .slider_content a:hover {
+    background: #212121;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .slider_black .slider_content a {
+        margin-top: 43px;
+    }
+}
+
+.active .slider_content>span {
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-name: fadeInLeft;
+    animation-delay: 0.7s;
+}
+
+.active .slider_content p,
+.active .slider_content h1,
+.active .slider_content a {
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-name: fadeInLeft;
+    animation-delay: 0.3s;
+}
+
+.active .slider_content h1 {
+    animation-delay: 0.6s;
+}
+
+.active .slider_content a {
+    animation-delay: 0.9s;
+}
+
+.slider_content p {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #242424;
+    margin-bottom: 11px;
+    text-transform: capitalize;
+}
+
+.slider_content h1 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #212121;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.slider_content p.slider_price {
+    color: #fff;
+    font-size: 18px;
+}
+
+.slider_content p.slider_price span {
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 8px;
+    color: #a8741a;
+    margin-bottom: 0;
+}
+
+.slider_content a {
+    font-weight: 500;
+    margin-top: 25px;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 35px;
+}
+
+.slider_content a:hover {
+    background: #212121;
+}
+
+.button {
+    background: #a8741a;
+    box-shadow: none;
+    color: #fff;
+    display: inline-block;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 22px;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+/* **********banner section ************ */
+.banner_section {
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 70px;
+}
+
+.banner_black {
+    border-bottom: 1px solid #2d2d2d;
+}
+
+.banner_black .banner_content {
+    transition: 0.5s;
+    bottom: 25px;
+    top: inherit;
+}
+
+.banner_black .banner_content p {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.banner_black .banner_content h2 {
+    color: #a8741a;
+    font-weight: 400;
+    font-family: "Baloo 2", serif;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .banner_black .banner_content h2 {
+        font-size: 21px;
+        line-height: 23px;
+        margin-bottom: 13px;
+    }
+}
+
+.banner_black .banner_content span {
+    color: #fff;
+}
+
+.banner_black .banner_thumb:hover .banner_content {
+    transform: scale(1.1);
+}
+
+.banner_thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.banner_thumb::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.11);
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.banner_thumb img {
+    transition: 0.3s;
+}
+
+.banner_thumb:hover::before {
+    opacity: 1;
+}
+
+.banner_thumb:hover img {
+    transform: scale(1.1);
+}
+
+.banner_black .banner_thumb:hover .banner_content {
+    transform: scale(1.1);
+}
+
+.banner_content {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.banner_content p {
+    color: #7d7d7d;
+    margin-bottom: 0;
+}
+
+.banner_content h2 {
+    color: #242424;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 15px;
+}
+
+.banner_content span {
+    color: #242424;
+}
+
+/* ****************banner section overs ************** */
+
+/* ******************** product section ****************** */
+.product_section {
+    margin-bottom: 34px;
+}
+
+.product_black_section .product_tab_button ul.nav {
+    border: 2px solid #2d2d2d;
+}
+
+.product_black_section .product_tab_button ul.nav::before {
+    background-image: linear-gradient(to right, transparent, #2d2d2d);
+}
+
+.product_black_section .product_tab_button ul.nav::after {
+    background-image: linear-gradient(to right, #2d2d2d, transparent);
+}
+
+.product_black_section .product_tab_button ul.nav li:first-child a {
+    border-left: 0;
+}
+
+.product_black_section .product_tab_button ul.nav li a {
+    border-left: 2px solid #2d2d2d;
+    color: #ffffff;
+    font-family: "Baloo 2", serif;
+}
+
+.product_black_section .product_tab_button ul.nav li a:hover {
+    color: #a8741a;
+}
+
+.product_black_section .product_tab_button ul.nav li a.active {
+    color: #a8741a;
+}
+
+.product_black_section .product_tab_button ul.nav li a.active::before {
+    border: 2px solid #a8741a;
+}
+
+.product_tab_button {
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.product_tab_button ul {
+    justify-content: center;
+    margin: 0 auto;
+    border: 2px solid #ebebeb;
+}
+
+.product_tab_button ul.nav {
+    display: inline-block;
+    position: relative;
+    border: 2px solid #2d2d2d;
+}
+
+.product_tab_button ul.nav::before {
+    content: "";
+    width: 200px;
+    height: 2px;
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    background-image: linear-gradient(to right, transparent, #2d2d2d);
+}
+
+.product_tab_button ul.nav::after {
+    content: "";
+    width: 200px;
+    height: 2px;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    background-image: linear-gradient(to right, transparent, #2d2d2d);
+}
+
+.product_tab_button ul li {
+    display: inline-block;
+}
+
+.product_tab_button ul li:first-child a {
+    border-left: 0;
+}
+
+.product_tab_button ul li a {
+    font-size: 20px;
+    color: #242424;
+    line-height: 48px;
+    text-transform: capitalize;
+    font-weight: 700;
+    display: inline-block;
+    font-family: "Baloo 2", serif;
+    border-left: 2px solid #ebebeb;
+    padding: 0 30px;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.product_tab_button ul li a:hover {
+    color: #a8741a;
+}
+
+.product_tab_button ul li a.active {
+    color: #a8741a;
+    position: relative;
+}
+
+.product_tab_button ul li a.active::before {
+    position: absolute;
+    content: "";
+    width: 104%;
+    height: 109%;
+    border: 2px solid #a8741a;
+    left: -2px;
+    top: -2px;
+    border-radius: 2px;
+}
+
+.tab-content {
+    padding-top: 20px;
+}
+
+.tab-content>.tab-pane.active {
+    display: block;
+    height: auto;
+    opacity: 1;
+    overflow: visible;
+}
+
+.tab-content>.tab-pane {
+    display: block;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.product_container .custom-col-5 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 6px;
+}
+
+.custom-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -6px;
+    margin-right: -6px;
+}
+
+.single_product {
+    transition: 0.3s;
+    margin-bottom: 30px;
+}
+
+.single_product:hover {
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+}
+
+.single_product:hover .product_hover {
+    top: 66%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.single_product:hover .product_thumb a.secondary_img {
+    opacity: 1;
+    visibility: visible;
+}
+
+.product_black_section .single_product {
+    padding: 15px 17px;
+}
+
+.product_black_section .single_product:hover {
+    background: #242424;
+}
+
+.product_thumb {
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.product_thumb a.secondary_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.single_product:hover .quick_button {
+    opacity: 1;
+    visibility: visible;
+}
+
+.quick_button {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    border-radius: 3px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.quick_button a {
+    line-height: 45px;
+    background: #3e3e3e;
+    color: #fff;
+    padding: 0 10px;
+    font-weight: normal;
+    border-radius: 2px;
+    font-size: 13px;
+    text-transform: capitalize;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+.quick_button a:hover {
+    background: #a8741a;
+}
+
+.product_black_section .quick_button a {
+    font-family: "Baloo 2", serif;
+    font-size: 14px;
+}
+
+.product_black_section .quick_button a:hover {
+    background: #a8741a;
+}
+
+.product_content {
+    text-align: center;
+    position: relative;
+}
+
+.product_content h3 {
+    line-height: 22px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 13px;
+}
+
+.product_content h3::before {
+    background-image: linear-gradient(to right,
+            transparent,
+            #2d2d2d 30%,
+            85%,
+            transparent);
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.product_content h3 a {
+    color: #ffffff;
+}
+
+.product_content h3 a:hover {
+    color: #a8741a;
+}
+
+.product_black_section .product_content h3 {
+    font-family: "Poppins", "Franklin Gothic Medium", "Arial Narrow", Arial,
+        sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tag_cate {
+    margin-bottom: 10px;
+}
+
+.product_black_section .tag_cate a {
+    color: #a0a0a0;
+    font-size: 13px;
+}
+
+.product_black_section .tag_cate a:hover {
+    color: #a8741a;
+}
+
+.price_box>span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #a8741a;
+}
+
+.price_box>span.old_price {
+    color: #545454;
+    font-size: 14px;
+    margin-right: 5px;
+    text-decoration: line-through;
+    font-weight: 400;
+}
+
+.product_hover {
+    position: absolute;
+    top: 50%;
+    z-index: 9;
+    left: 0;
+    background: #fff;
+    padding: 3px 8px 20px 8px;
+    box-shadow: 0px 6px 7px 0 rgba(0, 0, 0, 0.3);
+    transition: all 300ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.single_product:hover .product_hover {
+    top: 66%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.product_black_section .product_hover {
+    background: #242424;
+    left: -17px;
+    width: 117%;
+}
+
+.product_ratings {
+    margin-bottom: 6px;
+}
+
+.product_ratings ul li {
+    display: inline-block;
+}
+
+.product_ratings ul li a {
+    color: #a8741a;
+}
+
+.product_desc {
+    margin-bottom: 15px;
+    position: relative;
+    padding-bottom: 14px;
+}
+
+.product_desc::before {
+    background-image: linear-gradient(to right,
+            transparent,
+            #2d2d2d 30%,
+            85%,
+            transparent);
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.product_desc p {
+    font-size: 13px;
+    line-height: 18px;
+    color: #a0a0a0;
+}
+
+.action_links ul li {
+    display: inline-block;
+}
+
+.action_links ul li.add_to_cart a {
+    line-height: 35px;
+    padding: 0 18px;
+    width: 100%;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.action_links ul li a {
+    line-height: 37px;
+    height: 35px;
+    width: 35px;
+    background: #2e2e2e;
+    color: #ccc;
+    display: block;
+    text-align: center;
+}
+
+.action_links ul li a:hover {
+    color: #fff;
+    background: #a8741a;
+}
+
+.product_black_section .action_links ul li.add_to_cart a {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+.product_container button {
+    display: none !important;
+}
+
+/* add this from last part  */
+
+.p_section1 .slick-list {
+    padding-bottom: 135px !important;
+    margin-bottom: -135px;
+    z-index: 9;
+    padding-top: 18px !important;
+    margin-top: -30px;
+    position: relative;
+}
+
+.p_bottom.p_section1 .slick-list {
+    padding-bottom: 120px !important;
+    margin-bottom: -120px;
+}
+
+/* till here */
+
+/* banner section  */
+.banner_fullwidth {
+    background: url(images/banner/banner2222.jpg);
+    margin-bottom: 64px;
+}
+
+.banner_fullwidth .row {
+    height: 510px;
+}
+
+.black_fullwidth .banner_text:hover {
+    transform: scale(1.1);
+}
+
+.black_fullwidth .banner_text p {
+    color: #a8741a;
+}
+
+.black_fullwidth .banner_text h2 {
+    color: #fff;
+    font-family: serif;
+    font-weight: 400;
+}
+
+.black_fullwidth .banner_text span {
+    color: #a0a0a0;
+}
+
+.black_fullwidth .banner_text a {
+    color: #a8741a;
+    border: 2px solid #a8741a;
+}
+
+.black_fullwidth .banner_text a:hover {
+    color: #fff;
+    background: #a8741a;
+}
+
+.banner_text {
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.banner_text p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.banner_text h2 {
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.banner_text>span {
+    font-size: 16px;
+    margin: 0;
+    display: block;
+}
+
+.banner_text a {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #a8741a;
+    border: 2px solid #a8741a;
+    padding: 0 45px;
+    border-radius: 3px;
+    margin-top: 70px;
+    line-height: 46px;
+    display: inline-block;
+}
+
+/* ******** product section ******* */
+.product_container.bottom button {
+    display: block !important;
+    position: absolute;
+    top: -60px;
+    right: 30px;
+    z-index: 99;
+    border: 0;
+    background: inherit;
+    font-size: 15px;
+    background: transparent;
+    color: #a0a0a0;
+}
+
+.product_container.bottom button:hover {
+    color: #a8741a;
+}
+
+.product_container.bottom button.next_arrow {
+    right: 13px;
+}
+
+.product_black_section.bottom {
+    border-bottom: 1px solid #2d2d2d;
+    padding-bottom: 34px;
+    margin-bottom: 80px;
+}
+
+.section_title {
+    margin-bottom: 33px;
+    position: relative;
+}
+
+.section_title::before {
+    content: "";
+    height: 2px;
+    background: #2d2d2d;
+    position: absolute;
+    left: 0;
+    right: 15px;
+    top: 50%;
+}
+
+.section_title h2 {
+    margin-bottom: 0;
+    position: relative;
+    display: inline-block;
+    line-height: 30px;
+    text-transform: capitalize;
+    padding-right: 20px;
+    background: #242424;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.blog_section {
+    padding-bottom: 62px;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 62px;
+}
+
+.blog_section .section_title {
+    margin-bottom: 30px;
+}
+
+.blog_black {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 64px;
+    position: relative;
+    z-index: 9;
+}
+
+.blog_black .section_title::before {
+    background: #2d2d2d;
+}
+
+.blog_black .section_title h2 {
+    color: #ffffff;
+    background: #242424;
+    font-weight: 400;
+}
+
+.blog_black .blog_wrapper .owl-nav {
+    background: #242424;
+}
+
+.blog_black .blog_wrapper .owl-nav div {
+    color: #a0a0a0;
+}
+
+.blog_black .blog_wrapper .owl-nav div:hover {
+    color: #a8741a;
+}
+
+.blog_content {
+    text-align: left;
+}
+
+.blog_content h3 {
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 21px;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 13px;
+    font-weight: 700;
+}
+
+.blog_content h3 a {
+    color: #ffff;
+    letter-spacing: 1px;
+    font-family: "Poppins", serif !important;
+    font-weight: 500;
+}
+
+.blog_content h3 a:hover {
+    color: #a8741a;
+}
+
+.blog_content .read_more a {
+    color: #a0a0a0;
+}
+
+.blog_content .read_more a:hover {
+    color: #a8741a;
+}
+
+.author_name p {
+    color: #fff;
+}
+
+.author_name p span.themes {
+    color: #a8741a;
+}
+
+.post_desc p {
+    color: #a0a0a0;
+    font-size: 13px;
+}
+
+.blog_wrapper .col-lg-4 {
+    flex: 0 0 100%;
+    width: 100%;
+}
+
+.blog_wrapper .owl-nav {
+    position: absolute;
+    top: -55px;
+    right: 14px;
+    display: flex;
+    background: transparent;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+.blog_wrapper .owl-nav div.owl-next {
+    margin-left: 8px;
+}
+
+.blog_thumb {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.blog_thumb a {
+    display: block;
+}
+
+.blog_thumb::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(34, 34, 34, 0.7);
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.blog_thumb:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.author_name {
+    margin-bottom: 10px;
+}
+
+.author_name p {
+    font-size: 13px;
+    text-transform: capitalize;
+    color: #a7a7a7;
+}
+
+.author_name p span.themes {
+    color: #a8741a;
+}
+
+.author_name p span.post_by {
+    color: #adabab;
+}
+
+.post_desc {
+    margin-bottom: 12px;
+}
+
+.post_desc p {
+    line-height: 26px;
+    color: #a0a0a0;
+}
+
+.blog_content p.post_desc {
+    color: #5a5a5a;
+    line-height: 25px;
+    margin-bottom: 21px;
+}
+
+.blog_column3 i {
+    font-size: 17px;
+    padding: 0 5px;
+}
+
+.blog_column3 .ion-chevron-left:hover {
+    color: #a8741a;
+}
+
+.blog_column3 .ion-chevron-right:hover {
+    color: #a8741a;
+}
+
+/* ********** instagram ********* */
+.instagram__item {
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.instagram__item:hover::after {
+    opacity: 1;
+}
+
+.instagram__item:hover .instagram__text {
+    opacity: 1;
+    visibility: visible;
+}
+
+.instagram__item::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(212, 28, 74, 0.719);
+    content: "";
+    opacity: 0;
+    z-index: -1;
+    transition: all, 0.3s;
+}
+
+.instagram__text {
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all, 0.3s;
+}
+
+.instagram__text i {
+    font-size: 30px;
+    color: #0d0d0d;
+}
+
+.instagram__text a {
+    font-size: 16px;
+    color: #0d0d0d;
+    font-weight: 500;
+    display: block;
+    margin-top: 10px;
+}
+
+/* ***********************subscribe *********** */
+.newsletter_area {
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 70px;
+    margin-bottom: 65px;
+    
+}
+
+.newsletter_black {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 70px;
+    height: 100px;
+    width: 100px;
+}
+
+.newsletter_black h2 {
+    color: #ffffff;
+    font-family: serif;
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 2px;
+    line-height: 32px;
+    
+    
+}
+
+.newsletter_black p {
+    color: #ad3636;
+    line-height: 26px;
+    margin-bottom: 37px;
+    
+}
+
+.newsletter_black .newsletter_content form {
+    width: inherit;
+    position: unset;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+}
+
+.newsletter_black .newsletter_content form input {
+    width: 100%;
+    border: 2px solid #a32323;
+    font-size: 12px;
+    color: #fff;
+    padding: 0 20px;
+    border-radius: 4px;
+    padding: 10px 224px 10px 20px;
+    background: none;
+    
+}
+
+.newsletter_black .newsletter_content form button {
+    position: absolute;
+    font-family: "Poppins", serif;
+    content: "";
+    right: 0;
+    top: 0;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 60px;
+    background: #a8741a;
+    color: #fff;
+    height: 100%;
+    border: 0;
+    border-radius: 4px;
+    text-transform: capitalize;
+}
+
+.newsletter_black .newsletter_content form button:hover {
+    color: #1b0972;
+    
+}
+
+.newsletter_content {
+    text-align: center;
+}
+
+/* ****************banner section ************** */
+.banner_section_five {
+    border-bottom: 0;
+    padding: 25px;
+}
+
+.banner_section_five .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.port-box {
+    background-color: #1f1f1f;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.text-overlay {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3b3f3f;
+    opacity: 0.8;
+    display: none;
+}
+
+.text-overlay h1,
+p {
+    color: whitesmoke;
+}
+
+.text-overlay h1 {
+    font-size: 2.2rem;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+}
+
+.text-overlay p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.port-box:hover .text-overlay {
+    display: flex;
+}
+
+.port-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.size{
+    height: 200px;
+    width: 100px;
+}
+.size1{
+    height: 200px;
+    width: 100px;
+}
+
+/* ******************* ************* */
+/* footer section */
+.footer_black {
+    border-top: 1px solid #2d2d2d;
+    padding-top: 67px;
+}
+
+.footer_top {
+    padding-bottom: 61px;
+}
+
+.footer_black .widgets_container>h3 {
+    color: #fff;
+    font-family: serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 26px;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+.footer_contact p {
+    margin-bottom: 0;
+    line-height: 30px;
+    color: #a0a0a0;
+}
+
+.footer_contact p a:hover {
+    color: #a8741a;
+}
+
+.footer_contact ul {
+    margin-top: 10px;
+}
+
+.footer_contact ul li {
+    display: inline-block;
+    margin-right: 7px;
+}
+
+.footer_contact ul li:last-child {
+    margin-right: 0;
+}
+
+.footer_contact ul li a {
+    color: #fff;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 0;
+    background: #2f2f2f;
+    text-align: center;
+    border-radius: 50%;
+    display: block;
+}
+
+.footer_contact ul li a:hover {
+    background: #a8741a;
+}
+
+.footer_menu ul li a {
+    display: block;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 14px;
+    color: #a0a0a0;
+}
+
+.footer_menu ul li a:hover {
+    color: #a8741a;
+}
+
+/* ***************** */
+.simple_product_items {
+    display: flex;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid 2d2d2d;
+}
+
+.simple_product_items:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.simple_product_thumb {
+    width: 22%;
+}
+
+.simple_product_content {
+    width: 70%;
+    margin-left: 17px;
+}
+
+.simple_product_content .tag_cate {
+    margin-bottom: 0;
+}
+
+.simple_product_content .product_name h3 {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.simple_product_content .product_name h3 a {
+    color: #fff;
+    font-size: 23px;
+}
+
+.simple_product_content .product_name h3 a:hover {
+    color: #a8741a;
+}
+
+.simple_product_content .product_price span {
+    color: #5a5a5a;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.simple_product_content .product_price span.old_price {
+    text-decoration: line-through;
+    padding-right: 8px;
+}
+
+.simple_product_content .product_price span.current_price {
+    color: #a8741a;
+    font-weight: 500;
+}
+
+/* *********footer bottom ******* */
+.footer_bottom {
+    padding: 38px 0 46px;
+}
+
+.copyright_area {
+    text-align: center;
+}
+
+.copyright_area p {
+    text-transform: capitalize;
+    line-height: 26px;
+    color: #a0a0a0;
+}
+
+.copyright_area p a {
+    color: #a8741a;
+}
+
+.copyright_area p a:hover {
+    text-decoration: underline;
+}
+
+/* ***********************over ************** */
+/* ***************modal section ************* */
+
+.modal-dialog.modal-dialog-centered {
+    min-width: 870px;
+}
+
+.modal_tab_img {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.modal_tab_img img {
+    margin: 0 auto;
+}
+
+.modal_tab_button ul li a {
+    padding: 0;
+    border: 1px solid #ebebeb;
+    margin: 0 2px;
+}
+
+.modal_tab_button ul li a img {
+    width: 100%;
+}
+
+.modal_title h2 {
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 17px;
+    color: #242424;
+    line-height: 26px;
+}
+
+.see_all {
+    margin-bottom: 27px;
+}
+
+.see_all a {
+    color: #5a5a5a;
+    text-decoration: underline;
+}
+
+.see_all a:hover {
+    color: #a8741a;
+}
+
+.modal_social h2 {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #242424;
+    line-height: 20px;
+}
+
+.modal_social ul li {
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.modal_social ul li a {
+    text-transform: uppercase;
+    display: inline-block;
+    border: 1px solid #ddd;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #212121;
+    font-weight: 400;
+}
+
+.modal_social ul li a:hover {
+    background: #a8741a;
+    color: #fff;
+    border-color: #a8741a;
+}
+
+.modal_price {
+    margin-bottom: 16px;
+}
+
+.modal_price span {
+    font-weight: 600;
+    color: #a8741a;
+    font-size: 16px;
+}
+
+.modal_price span.old_price {
+    color: #5a5a5a;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+
+.modal_description p {
+    color: #5a5a5a;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.modal_add_to_cart {
+    border-bottom: 1px solid ebebeb;
+    padding-bottom: 30px;
+}
+
+.modal_add_to_cart form input {
+    width: 80px;
+    border: 1px solid #ebebeb;
+    background: none;
+    padding: 0 17px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.modal_add_to_cart form button {
+    background: none;
+    border: 1px solid #212121;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    height: 38px;
+    line-height: 18px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    background: #212121;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.modal_add_to_cart form button:hover {
+    background: #a8741a;
+    color: #fff;
+    border-color: #a8741a;
+}
+
+.modal_body {
+    padding: 0 6px 38px;
+}
+
+.modal-content button.close {
+    position: relative;
+    left: 94%;
+    width: 30px;
+    height: 30px;
+    display: block;
+    border: 1px solid #ebebeb;
+    top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 9;
+}
+
+.modal_add_to_cart.mb-15 {
+    margin-bottom: 23px;
+}
+
+.modal_description.mb-15 {
+    margin-bottom: 25px;
+    border-bottom: 1px solid ebebeb;
+    padding-bottom: 23px;
+}
+
+.product_navactive.owl-carousel:hover .owl-nav div {
+    opacity: 1;
+    visibility: visible;
+}
+
+.product_navactive.owl-carousel .owl-nav {
+    display: block;
+}
+
+.product_navactive.owl-carousel .owl-nav div {
+    position: absolute;
+    background: #f2f2f2;
+    border-radius: 3px;
+    color: #333;
+    height: 32px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 32px;
+    text-align: center;
+    line-height: 32px;
+    left: -7px;
+    font-size: 18px;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.product_navactive.owl-carousel .owl-nav div:hover {
+    background: #a8741a;
+    color: #fff;
+}
+
+.product_navactive.owl-carousel .owl-nav div.owl-next {
+    right: -7px;
+    left: auto;
+}
+
+.arrow-left {
+    position: absolute;
+    top: 29px;
+    left: -9px;
+    font-size: 20px;
+    height: 25px;
+    width: 21px;
+    color: black;
+    padding: 2px;
+    border-radius: 6px;
+    padding-right: 3px;
+}
+
+.arrow-right {
+    position: absolute;
+    top: 27px;
+    right: -12px;
+    font-size: 20px;
+    height: 25px;
+    width: 24px;
+    color: black;
+    padding: 2px;
+    border-radius: 6px;
+    padding-left: 5px;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+    background: #a8741a;
+    color: #fff;
+}
+/* */
+.banner-section-bg-container {
+  background-image: url("https://wallpaperaccess.com/full/3714986.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+.banner-heading {
+  color: white;
+  font-family: "Roboto";
+  font-size: 45px;
+  font-weight: 300;
+}
+.banner-caption {
+  color: #f5f7fa;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 300;
+}
+.custom-button {
+  color: white;
+  background-color: #d0b200;
+  width: 130px;
+  height: 45px;
+  border-width: 0;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+.custom-outline-button {
+  color: #d0b200;
+  background-color: transparent;
+  width: 130px;
+  height: 45px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d0b200;
+  border-radius: 8px;
+}
+/*..*/
+.detailed-view-card-container {
+  background-color: white;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  margin: 24px;
+}
+.detailed-view-card-heading {
+  color: #0f0e46;
+  font-family: "Roboto";
+  font-size: 23px;
+  font-weight: bold;
+}
+.detailed-view-card-description {
+  color: #6c6b70;
+  font-family: "Roboto";
+  font-size: 13px;
+}
+.detailed-view-card-text-container {
+  padding: 16px;
+}
+/*..*/
+.diwali-top-section {
+    margin-top: 10px;
+  background-image: url("https://th.bing.com/th/id/OIP.C-OjJpSNS_z9u2fg7gcJcgHaD3?w=1200&h=627&rs=1&pid=ImgDetMain");
+  height: 50vh;
+  background-size: cover;
+}
+.diwali-top-section-heading {
+  color: white;
+  font-family: "Caveat";
+  font-size: 46px;
+  width: 150px;
+  padding: 40px;
+}
+.diwali-bottom-section {
+  text-align:center;
+  background-color: #e6f6ff;
+  padding:10px;
+  height: 100%;
+  width: 100%;
+}
+.diwali-card-item {
+  text-align: center;
+  
+  width:400px;
+  height:300px;
+  border-radius: 9px;
+  padding: 16px;
+  margin: 15px;
+}
+.diwali-card-image {
+  height: 250px;
+  width: 350px;
+}
+.diwali-card-name {
+  color: #616e7c;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: normal;
+  margin: 16px;
+}
+.diwali-card-price {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+}
+/*..*/
+
+.delivery-and-payment-section {
+    background-color: white;
+}
+
+.delivery-and-payment-section-img {
+    width: 270px;
+}
+
+.delivery-and-payment-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.delivery-and-payment-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.payment-card-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 28px;
+}
+
+
+
+
+
+
+.goldimage {
+    width: 130px;
+    height: 130px;
+}
+
+.gold-follow {
+    background-color: #cccccc;
+    color: #5a7184;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    margin: 5px;
+    padding-top: 13px;
+    padding-bottom: 9px;
+    padding-right: 2px;
+    padding-left: 2px;
+    margin-bottom: 20px;
+
+}
+
+
+
+.gmail {
+    color: #5a7184;
+    width: 40px;
+    height: 40px;
+
+
+}
+
+.para {
+    color: #5a7184;
+    font-size: 15px;
+}
+
+.horizontal-line {
+    background-color: #5a7184;
+
+}
+
+.para1 {
+    color: #959ead;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.icon {
+    color: #5a7184;
+    font-size: 18px;
+}
+
+
+
+.thanking-customers-section {
+    background-image: radial-gradient(#fff8db, #fae38c);
+}
+
+.thanking-customers-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.thanking-customers-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.thanking-customers-section-img {
+    width: 270px;
+    margin-bottom: 20px;
+}
+
+.thanking-customers-section-modal-title {
+    color: #d0b200;
+    font-weight: 800;
+}
+
+.custom-button {
+    color: white;
+    background-image: linear-gradient(#d0b200, #a58d00);
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+    </style>
+</head>
+
+<body>
+    <script type="text/javascript">
+        (function($) {
+    "use strict";
+
+    new WOW().init();
+
+    //navbar cart
+    $(".cart_link > a").on("click", function() {
+        $(".mini_cart").addClass("active");
+    });
+
+    $(".mini_cart_close > a").on("click", function() {
+        $(".mini_cart").removeClass("active");
+    });
+
+    //sticky navbar
+    $(window).on("scroll", function() {
+        var scroll = $(window).scrollTop();
+        if (scroll < 100) {
+            $(".sticky-header").removeClass("sticky");
+        } else {
+            $(".sticky-header").addClass("sticky");
+        }
+    });
+
+    // background image
+    function dataBackgroundImage() {
+        $("[data-bgimg]").each(function() {
+            var bgImgUrl = $(this).data("bgimg");
+            $(this).css({
+                "background-image": "url(" + bgImgUrl + ")", // concatenation
+            });
+        });
+    }
+
+    $(window).on("load", function() {
+        dataBackgroundImage();
+    });
+
+    //for carousel slider of the slider section
+    $(".slider_area").owlCarousel({
+        animateOut: "fadeOut",
+        autoplay: true,
+        loop: true,
+        nav: false,
+        autoplayTimeout: 6000,
+        items: 1,
+        dots: true,
+    });
+
+    //product column responsive
+    $(".product_column3").slick({
+        centerMode: true,
+        centerPadding: "0",
+        slidesToShow: 5,
+        arrows: true,
+        rows: 2,
+        prevArrow: '<button class="prev_arrow"><i class="ion-chevron-left"></i></button>',
+        nextArrow: '<button class="next_arrow"><i class="ion-chevron-right"></i></button>',
+        responsive: [{
+                breakpoints: 400,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            },
+            {
+                breakpoints: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                },
+            },
+            {
+                breakpoints: 992,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                },
+            },
+            {
+                breakpoints: 1200,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                },
+            },
+        ],
+    });
+
+    //for tooltip
+    $('[data-toggle="tooltip"]').tooltip();
+
+    //tooltip active
+    $(".action_links ul li a, .quick_button a").tooltip({
+        animated: "fade",
+        placement: "top",
+        container: "body",
+    });
+
+    //product row activation responsive
+    $(".product_row1").slick({
+        centerMode: true,
+        centerPadding: "0",
+        slidesToShow: 5,
+        arrows: true,
+        prevArrow: '<button class="prev_arrow"><i class="ion-chevron-left"></i></button>',
+        nextArrow: '<button class="next_arrow"><i class="ion-chevron-right"></i></button>',
+        responsive: [{
+                breakpoints: 400,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                },
+            },
+            {
+                breakpoints: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                },
+            },
+            {
+                breakpoints: 992,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                },
+            },
+            {
+                breakpoints: 1200,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                },
+            },
+        ],
+    });
+
+    // blog section
+    $(".blog_column3").owlCarousel({
+        autoplay: true,
+        loop: true,
+        nav: true,
+        autoplayTimeout: 5000,
+        items: 3,
+        dots: false,
+        margin: 30,
+        navText: [
+            '<i class="ion-chevron-left"></i>',
+            '<i class="ion-chevron-right"></i>',
+        ],
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+            },
+            768: {
+                items: 2,
+            },
+            992: {
+                items: 3,
+            },
+        },
+    });
+
+    //navactive responsive
+    $(".product_navactive").owlCarousel({
+        autoplay: false,
+        loop: true,
+        nav: true,
+        items: 4,
+        dots: false,
+        navText: [
+            '<i class="ion-chevron-left arrow-left"></i>',
+            '<i class="ion-chevron-right arrow-right"></i>',
+        ],
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+            },
+            250: {
+                items: 2,
+            },
+            480: {
+                items: 3,
+            },
+            768: {
+                items: 4,
+            },
+        },
+    });
+
+    $(".modal").on("shown.bs.modal", function(e) {
+        $(".product_navactive").resize();
+    });
+
+    $(".product_navactive a").on("click", function(e) {
+        e.preventDefault();
+        var $href = $(this).attr("href");
+        $(".product_navactive a").removeClass("active");
+        $(this).addClass("active");
+        $(".product-details-large .tab-pane").removeClass("active show");
+        $(".product-details-large " + $href).addClass("active show");
+    });
+})(jQuery);
+    </script>
+    
+    <div class="home_black_version">
+        <header class="header_area header_black">
+            <!-- header top starts -->
+            <div class="header_top">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="social_icone">
+                                <ul>
+                                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                                    <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                                    <li><a href="#"><i class="ion-social-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="ion-social-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="top_right text-right">
+                                <ul>
+                                    <li class="language">
+                                        <a href="#">English <i class="ion-chevron-down"></i></a>
+                                        <ul class="dropdown_language">
+                                            <li><a href="#">French</a></li>
+                                            <li><a href="#">Germany</a></li>
+                                            <li><a href="#">Hindi</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="currency">
+                                        <a href="#">INR <i class="ion-chevron-down"></i></a>
+                                        <ul class="dropdown_currency">
+                                            <li><a href="#">USD - Dollar</a></li>
+                                            <li><a href="#">EUR - Euro</a></li>
+                                            <li><a href="#">GBP - British Pound</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="top_links">
+                                        <a href="#">My Account <i class="ion-chevron-down"></i></a>
+                                        <ul class="dropdown_links">
+                                            <li><a href="#">Checkout</a></li>
+                                            <li><a href="#">My Account</a></li>
+                                            <li><a href="#">Shopping Cart</a></li>
+                                            <li><a href="#">Wishlist</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- header top ends -->
+
+            <!-- header middle starts -->
+
+            <div class="header_bottom sticky-header">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12">
+                            <div class="main_menu_inner">
+                                <div class="logo_sticky">
+                                    <a href="#"><img src="images/logo/logo-ash.png" alt="logo"></a>
+                                </div>
+                                <div class="main_menu">
+                                    <nav>
+                                        <ul>
+                                            <li class="active">
+                                                <a href="#">Home <i class="ion-chevron-down"></i></a>
+                                                <ul class="sub_menu">
+                                                    <li><a href="#wcuSection">Jewellery</a></li>
+                                                    <li><a href="#jewellery Sets">Banner</a></li>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"> </a></li>
+                                                    <li><a href="#"></a></li>
+                                                    <li><a href="#"></a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">Shopping <i class="ion-chevron-down"></i></a>
+                                                <ul class="mega_menu">
+                                                    <li>
+                                                        <a href="#Shopping">Collections</a>
+                                                        <ul>
+                                                            <li><a href="#Travel">Travel Accessories</a></li>
+                                                            <li><a href="#Products">Products</a></li>
+                                                            <li><a href="#Clothes">Clothes</a></li>
+                                                            <li><a href="#cream">Sunflower rose</a></li>
+                                                            <li><a href="#"></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Other</a>
+                                                        <ul>
+                                                            <li><a href="#">Platinium</a></li>
+                                                            <li><a href="#">Silver</a></li>
+                                                            <li><a href="#">Coins</a></li>
+                                                            <li><a href="#">Gift Card</a></li>
+                                                        </ul>
+                                                    </li>
+
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">Customer Favorites <i class="ion-chevron-down"></i></a>
+                                                
+                                                <ul class="sub_menu pages">
+                                                    <a href="#SpecialCollection"></a>
+                                                    
+                                                    <li><a href="#SpecialCollection">Available Accessories</a></li>
+                                                    <ul>
+                                                    <li><a href="#customer">Customer's Loved</a><ol>
+                                                    <li><a href="#">Clothing</a></li>
+                                                    <li><a href="#">Beauty Brands</a></li>
+                                                    <li><a href="#">Watches</a></li>
+                                                    <li><a href="#"> Luggage</a></li>
+                                                    <li><a href="#"> Shoes</a></li></ol>
+                                                    </ul>
+                                                </ul>
+                                           
+                                             </li>
+                                            <li>
+                                                <a href="#">Special Collections <i class="ion-chevron-down"></i></a>
+                                                <ul class="sub_menu pages">
+                                                    
+                                                    
+                                                    <li><a href="#Product">Latest Arrivals</a></li>
+                                                    <li><a href="#Bracelets">Bracelets</a></li>
+                                                    <li><a href="#Earrings">Earrings</a></li>
+                                                    <li><a href="#Bangles">Bangles</a></li>
+                                                    <li><a href="#Scarves">Scarves</a></li>
+                                                    <li><a href="#Engagement">Perfumes</a></li>
+                                                    <li><a href="#Diamonds">Anklets</a></li>
+                                                    <li><a href="#Hats">Hats</a></li>
+                                                    <li><a href="#Sunglasses">Sunglasses</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#payments">Delivery & Payments</a></li>
+                                            <li><a href="#gift">Redeem Gift</a></li>
+                                            <li><a href="#About">Follow Us</a></li>
+                                            <li>
+                                                <!--<a href="#Contact">Contact Us </a>-->
+                                                <ul class="sub_menu pages">
+                                                    <!--
+                                                    <i class="ion-chevron-down"></i>
+                                                    <li><a href="#">Gemstone</a></li>
+                                                    <li><a href="#">Gold</a></li>
+                                                    <li><a href="#">Rose Gold</a></li>
+                                                    <li><a href="#">Silver</a></li>-->
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- header bottom ends -->
+        </header>
+
+        <!-- slider section starts -->
+        <div class="slider_area slider_black owl-carousel">
+            <div class="single_slider" data-bgimg="images/slider/1.png">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12">
+                            <div class="slider_content">
+                                <p>exclusive offer -20% off this week</p>
+                                <h1>Necklace</h1>
+                                <span>22 Carat gold necklace for wedding</span>
+                                <p class="slider_price">starting at <span>Rs. 75,999</span></p>
+                                <a href="#" class="button">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="single_slider" data-bgimg="images/slider/2.jpg">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12">
+                            <div class="slider_content">
+                                <p>exclusive offer -40% off this week</p>
+                                <h1>Earings and Pendant</h1>
+                                <span>Complete bridal set with white pearls</span>
+                                <p class="slider_price">starting at <span>Rs. 89,499</span></p>
+                                <a href="#" class="button">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="single_slider" data-bgimg="images/slider/3.jpg">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12">
+                            <div class="slider_content">
+                                <p>exclusive offer -10% off this week</p>
+                                <h1>Wedding Rings</h1>
+                                <span>Ashirwaad Special wedding rings for couples.</span>
+                                <p class="slider_price">starting at <span>Rs. 14,999</span></p>
+                                <a href="#" class="button">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- slider section ends -->
+        <!-- banner section starts -->
+        <section class="banner_section banner_black">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single_banner">
+                            <div class="banner_thumb">
+                                <a href="#"><img src="https://citybook.pk/blog/wp-content/uploads/2023/12/Gifts-of-Grace-Selecting-Meaningful-Silver-Rings-For-Occasions-in-Pakistan.jpg" alt="banner1"></a>
+                                <div class="banner_content">
+                                    <p>New Design</p>
+                                    <h2>Small design Ring</h2>
+                                    <span>Sale 20% </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single_banner">
+                            <div class="banner_thumb">
+                                <a href="#"><img src="https://img0.etsystatic.com/118/0/7856591/il_fullxfull.931466914_sjzl.jpg" alt="banner2"></a>
+                                <div class="banner_content">
+                                    <p>Bestselling Ring</p>
+                                    <h2>White gold ring</h2>
+                                    <span>Sale 10% </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single_banner">
+                            <div class="banner_thumb">
+                                <a href="#"><img src="https://www.hancocks-london.com/wp-content/uploads/2021/01/RNG125196-4.jpg" alt="banner3"></a>
+                                <div class="banner_content">
+                                    <p>Featured Ring</p>
+                                    <h2>Platinium Ring</h2>
+                                    <span>Sale 30% </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- banner section ends -->
+        <!-- product section area starts  -->
+
+        <section class="product_section p_section1 product_black_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="product_area">
+                            <div class="product_tab_button">
+                                <ul class="nav" role="tablist">
+                                    <li>
+                                        <a href="#featured" class="active" data-toggle="tab" role="tab" aria-controls="featured" aria-selected="true">Featured</a>
+                                    </li>
+                                    <li>
+                                        <a href="#arrivals" data-toggle="tab" role="tab" aria-controls="arrivals" aria-selected="false">New Arrivals</a>
+                                    </li>
+                                    <li>
+                                        <a href="#onsale" data-toggle="tab" role="tab" aria-controls="onsale" aria-selected="false">On-Sale</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            
+                              
+                                
+                                
+                            <div class="detailed-view-bg-container">
+                                <h1 class="detailed-view-heading"></h1>
+                                <div class="detailed-view-card-container">
+                                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner" id="wcuSection">
+                                      <div class="carousel-item active">
+                                        <img
+                                          src="https://wallpapercave.com/wp/wp5262757.jpg"
+                                          class="d-block w-100"
+                                          alt="..."
+                                        />
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img
+                                          src="https://wallpaperaccess.com/full/1907874.jpg"
+                                          class="d-block w-100"
+                                          alt="..."
+                                        />
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img
+                                          src="https://tennews.in/wp-content/uploads/2020/10/Pakistani-Bridal-jewellery-Sets-2020.jpg"
+                                          class="d-block w-100"
+                                          alt="..."
+                                        />
+                                      </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Next</span>
+                                    </a>
+                                  </div>
+                                  <div  class="detailed-view-card-text-container">
+                                    <h1 class="detailed-view-card-heading">Jewellery</h1>
+                                    <p class="detailed-view-card-description">
+                                        The Jewel Box is a "family" owned and oriented full service jewellery store serving Brockville and the 1000 of Design for over 30 years.
+                                        We take great care in finding extraordinary unique pieces that you won't see everywhere. and Also For Each Item 24 Carat With "HALLMARK" Certification.
+                                        Jewellery is personal and every piece should be as special as the occasion it's purchased for.
+                                        Whether it's for an engagement, an anniversary or just because, our staff is committed to giving you outstanding service with quality merchandise at an exceptional price.
+                                        Our warm and professional associates are known for "creating friendships" rather than "making sales", and will guide you as you discover the piece of your dreams.
+                                        We invite you to take your time, look around, and if you have any questions, we welcome your calls, emails, and especially your visit to our store.
+                                        We look forward to meeting you!
+                                  </div>
+                                </div>
+                              </div>
+
+                                  <div id="jewellery Sets">
+                                    <div class="banner-section-bg-container d-flex justify-content-center flex-column">
+                                        <div class="text-center">
+                                          <h1 class="banner-heading mb-3">Om Sri Balaji Jewellery Works</h1>
+                                          <p class="banner-caption mb-4">Gold and Silver Our Purity is Our Surety</p>
+                                          <button class="custom-button">View Designs</button>
+                                          <button class="custom-outline-button">Order Now</button>
+                                        </div>
+                                    </div>
+                                
+                                      </div>
+                                      <div class="bg" >
+                                        <div id="Shopping">
+                                      <div class="diwali-top-section">
+                                        <h1 class="diwali-top-section-heading">
+                                          Shopping with new trending collectoions
+                                        </h1>
+                                      </div>
+                                      <div class="diwali-bottom-section">
+                                        <div class="d-flex flex-row justify-content-center">
+                                          <div id="Travel" class="diwali-card-item">
+                                            <img
+                                              src="https://149808162.v2.pressablecdn.com/wp-content/uploads/2021/11/Top-Travel-Accessories-for-Women.jpg"
+                                              class="diwali-card-image"
+                                            />
+                                            <h1  class="diwali-card-name">Travel Accessories</h1>
+                                            <p class="diwali-card-price">Rs 20000</p>
+                                          </div>
+                                  
+                                          <div id="Products" class="diwali-card-item">
+                                            <img
+                                              src="https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/resize-w:540/959535/727v7OKuMo-959535_1.jpg"
+                                              class="diwali-card-image"
+                                            />
+                                            <h1 class="diwali-card-name">Beauty Products</h1>
+                                            <p class="diwali-card-price">Rs 1000</p>
+                                          </div>
+                                        </div>
+                                        <div class="d-flex flex-row justify-content-center">
+                                          <div id="Clothes" class="diwali-card-item">
+                                            <img
+                                              src="https://st4.depositphotos.com/2939989/22379/i/1600/depositphotos_223799554-stock-photo-womens-clothes-set-isolated-female.jpg"
+                                              class="diwali-card-image"
+                                            />
+                                            <h1 class="diwali-card-name">Clothes set</h1>
+                                            <p class="diwali-card-price">Rs 2000</p>
+                                          </div>
+                                  
+                                          <div id="cream" class="diwali-card-item">
+                                            <img
+                                              src="https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/resize-w:540/soulflower/1010069/1/STzL4epyO8-1NhJ68lI-X-1010069_2.jpg"
+                                              class="diwali-card-image"
+                                            />
+                                            <h1 class="diwali-card-name">Soulflower Rose Heart Bath Gift Set</h1>
+                                            <p class="diwali-card-price">Rs 1650</p>
+                                          </div>
+                                        </div>
+                                        
+                                            
+                                          
+                                          
+                                          
+                                          <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+                                          <!--data-toggle="modal" data-target="#exampleModal"-->
+                                        <button class="btn btn-primary"  onclick="nxtPage()">View More</button>
+                                    </div>
+                                </div>
+                                    
+
+<br><br>
+                                            
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessories for Women</title>
+    <style>
+        #shoppingMaterials {
+            display: none;
+            margin-top: 20px;
+
+        }
+        .item {
+            display: flex;
+            
+            margin-bottom: 10px;
+        }
+        .item img {
+            max-width: 100px;
+            margin-right: 10px;
+
+        }
+        .sizes{
+            height: 150px;
+            width:200px;
+            border-radius: 16px;
+            text-align: center;
+        }
+       
+
+        .country-container {
+  text-align: center;
+  color: blue;
+  border-style: solid;
+  border-width: 3px;
+  border-color: orange;
+  background-color: white;
+  padding:20px;
+}
+    </style>
+</head>
+<body>
+    <div class="country-container" id="SpecialCollection">
+    <h2 class="detailed-view-card-heading">Available Accessories</h2>
+   
+    <p class="detailed-view-card-description">“A woman makes an outfit her own with accessories”. The importance of accessories cannot be better summed up than thus but this is true for men and women. Accessories aim to enhance the effect of clothes you wear- whether they succeed or not depends on your sense of style, the trend in fashion at that particular time and the context.In fashion, an accessory is an item used to contribute, in a secondary manner, to an individual's outfit. Accessories are often chosen to complete an outfit and complement the wearer's look.
+         They have the capacity to further express an individual's identity and personality. Accessories come in different shapes, sizes, hues, etc. The term came into use in the 16th century<br>
+         Fashion accessories can be loosely categorized into two general areas: carried accessories and worn accessories.
+         <br> Carried accessories include purses and handbags, hand fans, parasols and umbrellas, wallets, canes, and ceremonial swords. Worn accessories include cravats, ties, hats, bonnets, belts and suspenders, gloves, muffs, necklaces, bracelets, watches,[a] eyewear, sashes, shawls, scarves, lanyards, socks, pins, piercings, rings, stockings and hair ties.[1]
+
+         Shoes, boots, sneakers, and all types or footwear are not accessories but 'wear for the foot'. The type of accessory that an individual chooses to wear or carry to complement their outfit can be determined by several factors, including the specific context of where the individual is going. For example, if an individual is going to work their choice of accessory would differ from someone who is going out to drinks or dinner; thus depending on work or play different accessories would be chosen. Similarly, 
+         an individual's economical status, religious and cultural background would also be a contributing factor.</p>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Luggage & More</title>
+    <link rel="stylesheet" href="styles.css">
+    <style type="text/css">
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    padding: 10px 0;
+}
+
+.menu-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.carousel-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e6f7ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.product img {
+    height: 150px;
+    margin: 8px;
+
+}
+
+.brands {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0 20px;
+}
+.font{
+    margin-top: 10px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        const carouselContent = document.querySelector('.carousel-content');
+const prevButton = document.querySelector('.prev');
+const nextButton = document.querySelector('.next');
+
+prevButton.addEventListener('click', () => {
+    carouselContent.scrollBy({
+        top: 0,
+        left: -300,
+        behavior: 'smooth'
+    });
+});
+
+nextButton.addEventListener('click', () => {
+    carouselContent.scrollBy({
+        top: 0,
+        left: 300,
+        behavior: 'smooth'
+    });
+});
+    </script>
+    <div class="header">
+        <div class="menu-item">Under ₹499</div>
+        <div class="menu-item">Min. 60% Off</div>
+        <div class="menu-item">Min. 50% Off</div>
+        <div class="menu-item">Under ₹499</div>
+        <div class="menu-item">Starting ₹299</div>
+        <div class="menu-item">Under ₹699</div>
+    </div>
+    <div class="carousel">
+        <div id="customer" class="carousel-content">
+            <h2>Customers' Most-Loved</h2>
+            <div class="product">
+                <img src="https://m.media-amazon.com/images/G/31/img24/Fashion/AF/Flip/Springsummerflip/CMLheros/PC/1._CB580691776_.jpg" alt="Backpack"><br>
+                <img src="https://m.media-amazon.com/images/G/31/img24/Fashion/AF/Flip/Springsummerflip/CMLheros/PC/5._CB580691776_.jpg" alt="Suitcase"><br>
+                <img src="https://m.media-amazon.com/images/G/31/img24/Fashion/AF/Flip/Springsummerflip/CMLheros/PC/7._CB580691776_.jpg" alt="Suitcase"><br>
+                <img src="https://m.media-amazon.com/images/G/31/img24/Fashion/AF/Flip/Springsummerflip/CMLheros/PC/8._CB580691776_.jpg" alt="Suitcase"><br>
+                <img src="https://m.media-amazon.com/images/G/31/img24/Fashion/AF/Flip/Springsummerflip/CMLheros/PC/6._CB580691776_.jpg" alt="Suitcase"><br>
+            </div>
+            <div class="brands">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+    </div><br>
+    <div class="country-container" id="Product">
+        <h2 class="detailed-view-card-heading">Special Collections</h2>
+       
+        <p class="detailed-view-card-description">"Many watch manufacturers have capitalized on the acceptance of the watch as a fashion accessory and have entered into licensing agreements with designers." In fashion, an accessory is an item used to contribute, in a secondary manner, to an individual's outfit. Accessories are often chosen to complete an outfit and complement the wearer's look. They have the capacity to further express an individual's identity and personality. Accessories come in different shapes, sizes, hues, etc. The term came into use in the 16th century</p>
+        
+    <button id="viewButton" class="btn btn-primary">Click Here</button><br>
+    <h3 class="font">Latest Arrivals</h3>
+    <div id="shoppingMaterials">
+       
+        <div class="banner-section-bg-containers d-flex justify-content-center flex-column"></div>
+        <div class="item">
+            <div class="diwali-card-item">
+                <div id="Bracelets">
+                <img
+                  src="https://m.media-amazon.com/images/I/71vG0xUgbiL._UL1500_.jpg"  class="sizes" alt="Bracelet" 
+                />
+                <h1 class="diwali-card-name" >Bracelets</h1>
+                <p class="diwali-card-price">Bracelets are versatile accessories that have been worn by people across cultures and centuries.</p>
+              </div>
+            </div>
+            
+              <div class="diwali-card-item">
+                <div id="Earrings">
+                <img  class="sizes" src="https://san-bro.com/wp-content/uploads/2020/05/Fashion-925-Silver-Luxury-Crystal-Stud-Earrings-New-Style-Earring-For-Women-Girl-Ear-Jewelry-Gift.jpg" alt="Earrings">
+
+                <h1 class="diwali-card-name">Earrings</h1>
+                <p class="diwali-card-price">Earring components may be made of any number of materials, including metal, plastic, glass, precious stone, beads, wood etc. </p>
+              </div></div>
+        
+              <div class="diwali-card-item">
+                <div id="Bangles">
+                <img  class="sizes" src="https://i.etsystatic.com/19779990/r/il/6870e9/2171261943/il_fullxfull.2171261943_tpsz.jpg" alt="Bangles">
+
+                <h1 class="diwali-card-name">Bangles</h1>
+                <p class="diwali-card-price">Bangles are the signs for traditional women and girls. Bangles play a very important role in various Indian dance forms </p>
+              </div></div>
+        <div class="diwali-card-item">
+            <div id="Scarves">
+            <img  class="sizes" src="https://static.vecteezy.com/system/resources/previews/000/084/440/original/red-neck-scarf-vector-pack.jpg" alt="Scarf">
+
+            <h1 class="diwali-card-name">Scarves</h1>
+            <p class="diwali-card-price">A scarf (pl.: scarves or scarfs) is a long piece of fabric that is worn on or around the neck, shoulders, or head. </p>
+          </div></div>
+            </div>
+            <div class="item">
+          <div class="diwali-card-item">
+            <div id="Engagement">
+            <img  class="sizes" src="https://sewguide.com/wp-content/uploads/2019/05/accessories-in-fashion67.jpg" alt="Necklace">
+
+            <h1 class="diwali-card-name">Perfumes</h1>
+            <p class="diwali-card-price">A fragrant scent that is applied/sprayed on our body – Perfumes are supposed to be the finishing accessory. </p>
+          </div></div>
+            
+          <div class="diwali-card-item">
+            <div id="Diamonds">
+            <img  class="sizes" src="https://sewguide.com/wp-content/uploads/2019/05/accessories-in-fashion422.jpg" alt="Necklace">
+
+            <h1 class="diwali-card-name">Anklets</h1>
+            <p class="diwali-card-price">An anklet is an ornament worn around an ankle. Also called ankle chain, ankle bracelet or ankle string.</p>
+          </div>
+        </div>
+          <div class="diwali-card-item">
+            <div id="Hats">
+            <img  class="sizes" src="https://th.bing.com/th/id/OIP.1t2uPcIYAy6ksnLX2ohp-AHaD4?rs=1&pid=ImgDetMain" alt="Hat">
+
+            <h1 class="diwali-card-name">Hats</h1>
+            <p class="diwali-card-price">A hat is a head covering which is worn for various reasons, including protection against weather conditions </p>
+          </div>
+        </div>
+        
+          <div class="diwali-card-item">
+            <div id="Sunglasses">
+            <img  class="sizes" src="https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/wp-cms/uploads/2014/03/3028019-poster-p-cloack.jpg">
+
+            <h1 class="diwali-card-name">Sunglasses</h1>
+            <p class="diwali-card-price">Sunglasses can improve visual comfort and visual clarity by protecting the eye from glare. </p>
+          </div>
+        </div>
+        </div>
+        </div>
+            
+        </div>
+    </div>
+</div>
+    <script>
+        document.getElementById('viewButton').addEventListener('click', function() {
+            var shoppingMaterials = document.getElementById('shoppingMaterials');
+            if (shoppingMaterials.style.display === 'none' || shoppingMaterials.style.display === '') {
+                shoppingMaterials.style.display = 'block';
+            } else {
+                shoppingMaterials.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
+  
+                                            
+                                            <br>
+                                            
+                                            <div class="delivery-and-payment-section pt-5 pb-5" id="payments">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-12 col-md-5 order-1 order-md-2">
+                                                            <div class="text-center">
+                                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_fBUXRxIXFNHV4xDW9O-6owLGR_t0A6S_Kg&usqp=CAU" class="delivery-and-payment-section-img" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-7 order-2 order-md-1">
+                                                            <h1 class="delivery-and-payment-section-heading">
+                                                                Delivery and Payment
+                                                            </h1>
+                                                            <p class="delivery-and-payment-section-description">
+                                                                Enjoy hassle-free payment with the plenitude of payment options
+                                                                available for you. Get live tracking and locate your Items on a
+                                                                live map. It's quite a sight to see your Items arrive to your door.
+                                                                Plus, you get a 5% discount on every order every time you pay
+                                                                online.
+                                                            </p>
+                                                            <button class="homebutton btn btn-primary">Order Now</button>
+                                                            <div class="mt-3">
+                                                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/visa-card-img.png" class="payment-card-img" />
+                                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcrQF-O1jtbe5lQKDIPTZ3hPK27n6q3EHaGqxY32iFEbFWVgPbKZm8nqdghFTem8RJLks&usqp=CAUgpay" class="payment-card-img" />
+                                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNCIjgoC-CUfvtCBxxVj6w5VbdeYD0QKBBHQ&usqp=CAUphonepay" class="payment-card-img" />
+                                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnqaoDW14JJNHZSflybGtXbNCQOfd2-1jX9Q&usqp=CAUpaytm" class="payment-card-img" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                        
+                                        <br>
+                                        <div class="thanking-customers-section pt-5 pb-5" id="gift">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-12 col-md-7 d-flex flex-column justify-content-center">
+                                                        <h1 class="thanking-customers-section-heading">
+                                                            Thank you for being a valuable customer to us.
+                                                        </h1>
+                                                        <p class="thanking-customers-section-description">
+                                                            We have a surprise gift for you
+                                                        </p>
+                                                        <div class="d-md-none">
+                                                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" class="thanking-customers-section-img" />
+                                                        </div>
+                                                        <div>
+                                                            <button type="button" class="custom-button" data-toggle="modal" data-target="#exampleModal">
+                                                                Redeem Gift
+                                                            </button>
+                                                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                <div class="modal-dialog mt-5">
+                                                                    <div class="modal-content">
+                                                                        <div class="modal-header">
+                                                                            <h5 class="modal-title thanking-customers-section-modal-title" id="exampleModalLabel">
+                                                                                Gift Voucher
+                                                                            </h5>
+                                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                                <span aria-hidden="true">&times;</span>
+                                                                            </button>
+                                                                        </div>
+                                                                        <div class="modal-body">
+                                                                            <img src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-55940,resizemode-1,msid-60763529/wealth/save/security-features-of-a-genuine-rs-500-currency-note.jpg" class="w-100" />
+                                                                        </div>
+                                                                        <div class="modal-footer">
+                                                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                                                                Close
+                                                                            </button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-5 d-none d-md-block">
+                                                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" class="thanking-customers-section-img" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                           
+                                    <footer class="footer_widgets footer_black" id="Contact">
+                                        <div class="container">
+                                            <div class="footer_top">
+                                                <div class="row">
+                                                    <div class="col-lg-4 col-md-6 col-sm-8">
+                                                        <div id="About" class="widgets_container contact_us">
+                                                            <h3>About Us</h3>
+                                                            <div class="footer_contact">
+                                                                <p>Address : Nikhitha palace, Hyderabad,Telangana,India.</p>
+                                                                <p>Phone : <a href="tel:(+91)888888885555">(+91)874888885555</a></p>
+                                                                <p>Email : nikhithakatta@gmail.com</p>
+                                                                <ul>
+                                                                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                                                                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                                                                    <li><a href="#"><i class="ion-social-rss"></i></a></li>
+                                                                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                                                                    <li><a href="#"><i class="ion-social-youtube"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-2 col-md-6 col-sm-4 col-6">
+                                                        <div class="widgets_container widget_menu">
+                                                            <h3>Information</h3>
+                                                            <div class="footer_menu">
+                                                                <ul>
+                                                                    <li><a href="#">About Us</a></li>
+                                                                    <li><a href="#">Blog</a></li>
+                                                                    <li><a href="#">Contact</a></li>
+                                                                    <li><a href="#">Services</a></li>
+                                                                    <li><a href="#">Collection</a></li>
+                                                                    <li><a href="#">Portfolio</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-2 col-md-6 col-sm-5 col-6">
+                                                        <div class="widgets_container widget_menu">
+                                                            <h3>My Account</h3>
+                                                            <div class="footer_menu">
+                                                                <ul>
+                                                                    <li><a href="#">My Account</a></li>
+                                                                    <li><a href="#">Contact</a></li>
+                                                                    <li><a href="#">Wishlist</a></li>
+                                                                    <li><a href="#">Portfolio</a></li>
+                                                                    <li><a href="#">Checkout</a></li>
+                                                                    <li><a href="#">Frequently Questions</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-6 col-sm-7">
+                                                        <div class="widgets_container product_widget">
+                                                            <h3>Top Rated Products</h3>
+                                                            <div class="simple_product">
+                                                                <div class="simple_product_items">
+                                                                    <div class="simple_product_thumb">
+                                                                        <a href="#"><img src="images/product/14.jpg" alt=""></a>
+                                                                    </div>
+                                                                    <div class="simple_product_content">
+                                                                        <div class="tag_cate">
+                                                                            <a href="#">Women,</a>
+                                                                            <a href="#">Earrings</a>
+                                                                        </div>
+                                                                        <div class="product_name">
+                                                                            <h3><a href="#">Bracelet</a></h3>
+                                                                        </div>
+                                                                        <div class="product_price">
+                                                                            <span class="old_price">Rs. 45612.54</span>
+                                                                            <span class="current_price">Rs. 41612.54</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="simple_product_items">
+                                                                    <div class="simple_product_thumb">
+                                                                        <a href="#"><img src="images/product/28.jpg" alt=""></a>
+                                                                    </div>
+                                                                    <div class="simple_product_content">
+                                                                        <div class="tag_cate">
+                                                                            <a href="#">Women,</a>
+                                                                            <a href="#">Earrings</a>
+                                                                        </div>
+                                                                        <div class="product_name">
+                                                                            <h3><a href="#">Ring</a></h3>
+                                                                        </div>
+                                                                        <div class="product_price">
+                                                                            <span class="old_price">Rs. 75612.54</span>
+                                                                            <span class="current_price">Rs. 71612.54</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="footer_bottom">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="copyright_area">
+                                                            <p>Copyright &copy; 2024 <a href="#">Nikhitha</a> All rights Reserved.</p>
+                                                            <img src="images/icon/papyel2.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                            
+                                        </div>
+                                    </footer>
+                                    <!-- footer section ends -->
+                                </div>
+                            
+                                <!-- modal section starts -->
+                                <div class="modal fade" id="modal_box" tabindex="-1" role="dialog" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            <div class="modal_body">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-lg-5 col-md-5 col-sm-12">
+                                                            <div class="modal_tab">
+                                                                <div class="tab-content product-details-large">
+                                                                    <div class="tab-pane fade show active" id="tab1" role="tabpanel">
+                                                                        <div class="modal_tab_img">
+                                                                            <a href="#"><img src="images/product/70.jpg" alt=""></a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="tab-pane fade" id="tab2" role="tabpanel">
+                                                                        <div class="modal_tab_img">
+                                                                            <a href="#"><img src="images/product/71.jpg" alt=""></a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="tab-pane fade" id="tab3" role="tabpanel">
+                                                                        <div class="modal_tab_img">
+                                                                            <a href="#"><img src="images/product/72.jpg" alt=""></a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="tab-pane fade" id="tab4" role="tabpanel">
+                                                                        <div class="modal_tab_img">
+                                                                            <a href="#"><img src="images/product/73.jpg" alt=""></a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="modal_tab_button">
+                                                                    <ul class="nav product_navactive owl-carousel" role="tablist">
+                                                                        <li>
+                                                                            <a href="#tab1" class="nav-link active" data-toggle="tab" role="tab"
+                                                                                aria-controls="tab1" aria-selected="false"><img
+                                                                                    src="images/product/70.jpg" alt=""></a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#tab2" class="nav-link" data-toggle="tab" role="tab"
+                                                                                aria-controls="tab2" aria-selected="false"><img
+                                                                                    src="images/product/71.jpg" alt=""></a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#tab3" class="nav-link button_three" data-toggle="tab"
+                                                                                role="tab" aria-controls="tab3" aria-selected="false"><img
+                                                                                    src="images/product/72.jpg" alt=""></a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#tab4" class="nav-link" data-toggle="tab" role="tab"
+                                                                                aria-controls="tab4" aria-selected="false"><img
+                                                                                    src="images/product/73.jpg" alt=""></a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-7 col-md-7 col-sm-12">
+                                                            <div class="modal_right">
+                                                                <div class="modal_title mb-10">
+                                                                    <h2>Women's Necklace</h2>
+                                                                </div>
+                                                                <div class="modal_price mb-10">
+                                                                    <span class="new_price">Rs. 51164</span>
+                                                                    <span class="old_price">Rs. 54164</span>
+                                                                </div>
+                                                                <div class="see_all">
+                                                                    <a href="#">See All Features</a>
+                                                                </div>
+                                                                <div class="modal_add_to_cart mb-15">
+                                                                    <form action="#">
+                                                                        <input type="number" min="0" max="100" step="1">
+                                                                        <button type="submit">Add To Cart</button>
+                                                                    </form>
+                                                                </div>
+                                                                <div class="modal_description mb-15">
+                                                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quibusdam
+                                                                        nisi voluptas consequatur tempora, recusandae nemo blanditiis eaque odit
+                                                                        voluptatibus voluptatem, ipsa incidunt fugiat a.</p>
+                                                                </div>
+                                                                <div class="modal_social">
+                                                                    <h2>Share this Product</h2>
+                                                                    <ul>
+                                                                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                                                                        <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                                                                        <li><a href="#"><i class="ion-social-rss"></i></a></li>
+                                                                        <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                                                                        <li><a href="#"><i class="ion-social-youtube"></i></a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- modal section ends -->
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                                <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+                                <!-- JavaScript Bundle with Popper.js -->
+                                <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
+                                <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+                                <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+                                <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+                            
+                                <script src="main.js"></script>
+                                     
+
+                                     
+
+</body>
+
+</html>
